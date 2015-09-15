@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Instaphoto</title>
+  <title>Accident Finder</title>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfIn7IBR6BNfgKUXv11-EfNvreF4uPcu0&libraries=places"></script>
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= javascript_include_tag 'https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js' %>
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <header>
+    <h1>Welcome to Accident Finder!</h1>
+  </header>
 
-<%= yield %>
+  <%= yield %>
 
 </body>
 </html>
