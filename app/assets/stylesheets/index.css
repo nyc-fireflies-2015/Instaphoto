@@ -1,0 +1,18 @@
+.incident-summary {
+  border: solid;
+  border-width: 1;
+}
+
+#map {
+  height: 500px;
+  width:750px;
+  display: inline-block;
+  float: left;
+}
+
+#list {
+  height: 500px;
+  width: 400px;
+  display: inline-block;
+  overflow: scroll;
+}
